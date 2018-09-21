@@ -28,7 +28,7 @@ pass_box = driver.find_element_by_name('password')
 login_button = driver.find_element_by_class_name('button')
 
 id_box.send_keys('nildo')
-pass_box.send_keys('meneze')
+pass_box.send_keys('')
 login_button.click()
 
 #Upload Imagem
